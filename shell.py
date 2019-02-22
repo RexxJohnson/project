@@ -29,10 +29,10 @@ if __name__ == '__main__':
 
     # open file to read previous history.
     # make a list and append all the lines to the history
-    #file = open("/tempHistory/.history", 'r')
-    #history = []
-    #for line in file:
-        #history.append(line)
+    file = open("/tempHistory/.history", 'r')
+    history = []
+    for line in file:
+        history.append(line)
 
     # while running commands
     #
